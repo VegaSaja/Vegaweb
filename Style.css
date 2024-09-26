@@ -1,0 +1,53 @@
+        /* Animasi teks paragraf dari kanan ke kiri */
+        p {
+            font-size: 24px;
+            font-weight: bold;
+            white-space: nowrap;
+            position: relative;
+            animation: slideIn 5s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Style tabel */
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* CSS untuk logo media sosial */
+        .social-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .social-links img {
+            width: 40px;
+            height: 40px;
+        }
